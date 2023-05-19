@@ -1,0 +1,104 @@
+/* Colors and fonts */
+body {
+	background-color: #DCE1DE;
+	color: #1F2421;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 17px;
+}
+h1 {
+	color: #49A078;
+	letter-spacing: 3px;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 { 
+	color: #9CC5A1;
+}
+
+a {
+	color: #216869;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.link-style:hover {
+	color: #F4F6F5;
+}
+
+/*Formatting*/
+
+.card-white{
+	backdrop-filter: white;
+	margin: 20px auto;
+	background: #F4F6F5;
+	border-radius: 30px;
+	padding: 40px;
+	width: 500px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	text-align: center ;
+}
+
+#img-rounded {
+	border-radius: 50%;
+	height: 200px;
+}
+
+.button-style {
+	background-color: #49A078;
+	padding: 15px 25px;
+}
+
+.button-style:hover{
+	background-color: #9CC5A1;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	font-size: 70px;
+}
+
+.list-inline > li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.link-style2:hover {
+	color: #9CC5A1;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+@media (max-width 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
